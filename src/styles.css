@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "@fontsource/instrument-sans/400.css";
+@import "@fontsource/instrument-sans/600.css";
+@import "@fontsource/instrument-serif/400.css";
+
+@theme {
+  --color-bg: #100e0c;
+  --color-surface: #1b1814;
+  --color-fg: #f6f1e7;
+  --color-muted: #a39888;
+  --color-line: #322e28;
+  --color-accent: #ff4d2e;
+  --color-ink: #1a0906;
+  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    color-scheme: dark;
+    background: var(--color-bg);
+  }
+
+  html.sala-cursor,
+  html.sala-cursor * {
+    cursor: none !important;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+
+  input[type="range"] {
+    accent-color: var(--color-accent);
+    height: 2.75rem;
+  }
+}

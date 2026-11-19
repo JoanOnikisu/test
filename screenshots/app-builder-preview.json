@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Cartucho",
+      "hasCanvas": false,
+      "bodyTextLen": 304,
+      "bodyTextHash": "fed424e57644c780d810715da7733109db74ea200d22b35a26991bab7a4103a3",
+      "bodyTextPrefix": "CARTUCHO Ainda não é um jogo. Grave um SWF. A tela passa a ser e",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Cartucho",
+      "hasCanvas": false,
+      "bodyTextLen": 304,
+      "bodyTextHash": "fed424e57644c780d810715da7733109db74ea200d22b35a26991bab7a4103a3",
+      "bodyTextPrefix": "CARTUCHO Ainda não é um jogo. Grave um SWF. A tela passa a ser e",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
